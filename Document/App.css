@@ -41,6 +41,10 @@ li {
   .nav-right{
     padding-right: 60px;
   }
+  .signup{
+    background: rgb(243, 243, 45);
+    border-radius: 5px;
+  }
   /* header part ends here  */
   /* content section starts here  */
   .content{
@@ -70,6 +74,11 @@ margin-top: 30px;
     display: flex;
     margin-top: 30px;
   }
+  input[type=email]{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 25px;
+  }
   input{
     height: 55px;
     width: 200px;
@@ -77,7 +86,7 @@ margin-top: 30px;
     border-radius: 10px;
   }
   ::placeholder{
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: larger;
   }
   .btn{
@@ -157,6 +166,7 @@ object-fit: contain;
   .eng{
     width: 35%;
     background-color: rgb(216, 128, 13);
+    border-radius: 5px;
   }
   .container3{
     width: 100%;
@@ -168,6 +178,7 @@ object-fit: contain;
   .eng3{
     width: 65%;
     background-color: rgb(29, 27, 25);
+    border-radius: 5px;
   }
   .fst-graph{
     display: flex;
@@ -179,6 +190,7 @@ object-fit: contain;
     font-size: 13px;
     font-weight: 700;
     color: gray;
+    padding-right: 20px;
  }
  /* right side secound box ends here  */
   /* right content ends here  */
